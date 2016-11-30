@@ -1,0 +1,15 @@
+a {
+    color: blue;
+}
+
+.myclass {
+    background-color: red;
+}
+
+#mynavigation>a {
+    color: red;
+}
+
+a:hover {
+    color: blue;
+}
