@@ -1,9 +1,16 @@
+body {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 200%;
+}
+
+
 a {
     color: blue;
 }
 
 .myclass {
-    background-color: red;
+    background-color: white;
 }
 
 #mynavigation>a {
