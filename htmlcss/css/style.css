@@ -1,0 +1,13 @@
+body{
+    background-color: #5fb9f2;
+}
+
+.wrapper{
+    /* width: 100px; */
+    background-color: #ffffff;
+    /* padding works inside of the element, list 4 numbers to operate clockwise */
+    padding: 20px 30px 5px 15px;
+    /* margin works on outside of the element also works clockwise with multiple numbers */
+    margin: 30px;
+    /* box-sizing: border-box; */
+}

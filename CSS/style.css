@@ -1,16 +1,41 @@
 body {
+    color: #000000;
     font-weight: normal;
     font-size: 15px;
     line-height: 200%;
+    /* font: normal 10px/200% sans-serif; */
+    background-color: #ffffff;
+    background-image: url('../cssimage.jpg');
+    background-repeat: repeat;
+    background-position: top right;
+    /* background: #ffffff url('../cssimage.jpg') top right no-repeat */
 }
 
+p {
+    text-align: left;
+    text-decoration: underline;
+}
+p.special {
+    text-align: right;
+    text-decoration: line-through;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+    /* border-top: 2px solid blue; */
+    /* border-bottom: 2px solid blue; */
+    /* border: 2px solid blue; */
+}
 
 a {
     color: blue;
 }
 
 .myclass {
-    background-color: white;
+   /* background-color: white; */
 }
 
 #mynavigation>a {
