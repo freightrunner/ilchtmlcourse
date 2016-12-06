@@ -10,4 +10,21 @@ body{
     /* margin works on outside of the element also works clockwise with multiple numbers */
     margin: 30px;
     /* box-sizing: border-box; */
+    overflow: hidden;
+}
+
+main{
+    float: left;
+    background-color: #d38080;
+}
+
+aside{
+    width: 100px;
+    float: right;
+    background-color: #a1dd8f;
+}
+
+footer{
+    clear: both;
+    /* can also clear left or right */
 }

@@ -1,0 +1,31 @@
+body{
+    background-color: #9fc0f4;
+    color: #666;
+    font-family: 'Pacifico', Georgia;
+    font-weight: normal;
+}
+
+.offer{
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    border: 10px dotted #f2a4a4;
+    width: 200px;
+    margin: 150px auto 10px auto;
+}
+
+.offer h1{
+    margin: 0;
+    font-family: 'Pacifico', Georgia;
+    font-weight: normal;
+    color: #d85d5d;
+}
+
+.offer img{
+    width:50%;
+    position: absolute;
+    top: -50px;
+    bottom: auto;
+    left: auto;
+    right: -70px;
+}
