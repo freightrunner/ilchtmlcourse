@@ -24,8 +24,8 @@ body{
 .offer img{
     width:50%;
     position: absolute;
-    top: -50px;
+    top: -30px;
     bottom: auto;
     left: auto;
-    right: -70px;
+    right: -50px;
 }

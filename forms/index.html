@@ -15,16 +15,44 @@
                 <fieldset>
                     <legend>User Log In Info</legend>
                     <label for="user">Username</label>
-                    <input type="text" name="user"/>
+                    <input type="text" name="user" placeholder="Enter Your Username">
                     <br>
                     <br>
                     <label for="pass">Password</label>
-                    <input type="password" name="pass"/>
+                    <input type="password" name="pass" placeholder="Enter Your Password">
                     <br>
                     <br>
                     <input type="submit" value="Submit"/>
                     <input type="reset">
                 </fieldset>
+                <br>
+                <br>
+                <label for="message">Enter your message</label>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Enter your message">
+                </textarea>
+                <br>
+                <br>
+                <input type="radio" name="gender" value="male">
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" value="female">
+                <label for="gender">Female</label>
+                <input type="radio" name="gender" value="unknown">
+                <label for="gender">Unknown</label>
+                <br>
+                <input type="checkbox" name="interest" value="CSS" checked>
+                <label for="gender">CSS</label>
+                <input type="checkbox" name="interest" value="JS">
+                <label for="gender">JS</label>
+                <input type="checkbox" name="interest" value="HTML">
+                <label for="gender">HTML</label>
+                <br>
+                <br>
+                <label for="work">Work Type</label>
+                <select name="work" id="">
+                    <option value="Full-Time">Full-Time Employee</option>
+                    <option value="Part-Time">Part-Time Employee</option>
+                    <option value="Freelance" selected>Freelance</option>
+                </select>
             </form>
             
         </div>
