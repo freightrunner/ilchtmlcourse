@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Rapid Development with External Libraries</title>
+        
+        <!-- jQuery library (served from Google) -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <!-- bxSlider Javascript file -->
+        <script src="js/jquery.bxslider.min.js"></script>
+        <!-- bxSlider CSS file -->
+        <link href="js/jquery.bxslider.css" rel="stylesheet" />
+        
+        <style>
+            .bx-wrapper{
+                max-width: 597px !important;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <ul class="bxslider">
+          <li><img src="img/1.jpg" /></li>
+          <li><img src="img/2.jpg" /></li>
+          <li><img src="img/3.jpg" /></li>
+        </ul>
+        
+        <script>
+            $(document).ready(function(){
+              $('.bxslider').bxSlider();
+            });
+        </script>
+        
+        
+    </body>
+</html>
