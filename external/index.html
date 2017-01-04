@@ -6,11 +6,15 @@
         <title>Rapid Development with External Libraries</title>
         
         <!-- jQuery library (served from Google) -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <!-- jQuery UI Library -->
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <!-- bxSlider Javascript file -->
         <script src="js/jquery.bxslider.min.js"></script>
         <!-- bxSlider CSS file -->
         <link href="js/jquery.bxslider.css" rel="stylesheet" />
+        <!-- JQuery UI Theme --> 
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         
         <style>
             .bx-wrapper{
@@ -31,6 +35,14 @@
               $('.bxslider').bxSlider();
             });
         </script>
+        
+        <script>
+          $( function() {
+            $( "#datepicker" ).datepicker();
+          } );
+        </script>
+        
+        <p>Date: <input type="text" id="datepicker"></p>
         
         
     </body>
